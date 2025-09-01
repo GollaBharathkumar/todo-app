@@ -1,5 +1,5 @@
 """
-Todo App — CLI with Unit Tests
+Todo App 
 
 Features:
 - Add task
@@ -7,14 +7,6 @@ Features:
 - Mark task as done
 - Delete task
 
-This single file contains both the app and tests.
-Run the CLI:
-    python todo_app.py
-Run the tests:
-    python todo_app.py --test
-or
-    python -m unittest todo_app.py
-"""
 from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import List, Optional
@@ -212,3 +204,4 @@ if __name__ == "__main__":
             run_cli()
         except KeyboardInterrupt:
             print("\nGoodbye!")
+
